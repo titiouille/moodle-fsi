@@ -20,10 +20,9 @@ const Navbar = () => {
                     <Link to="#" className='menu-bars'>
                         <FaIcons.FaBars onClick={showSidebar} />
                     </Link>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <a href="https://capsule.sorbonne-universite.fr/"><img src={logo} className="App-logo" alt="logo" /></a>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-
                     <ul className='nav-menu-items' onClick={showSidebar}>
                         <li className="navbar-toggle">
                             <Link to="#" className='menu-bars'>
