@@ -75,10 +75,11 @@ span {
 
 .App-logo{
     display: block;
-    /*position: absolute;*/
+    position: absolute;
     top: 0;
     left: 0;
     max-width: 250px;
     margin-left: 8%;
+    margin-top: 0.2%;
 
 }

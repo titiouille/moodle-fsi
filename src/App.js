@@ -13,25 +13,33 @@ import IntegralProcess from "./pages/IntegralProcess";
 
 function App() {
     return (
-     <>
-         <header className="App-header">
+        <>
+            <header className="App-header">
 
-         </header>
-         <BrowserRouter>
-             <Navbar />
-             <Routes>
-                 <Route path='/' element={<Home/>}/>
-                 <Route path='/home' element={<Home/>}/>
-                 <Route path='/infrastructure' element={<Infrastructure/>}/>
-                 <Route path='/satelite-plugins' element={<SatelitePlugins/>}/>
-                 <Route path='/team-moodle' element={<TeamMoodle/>}/>
-                 <Route path='/users-service' element={<UsersService/>}/>
-                 <Route path='/plugin-lifecyle' element={<PluginLifecycle/>}/>
-                 <Route path='/moodle-lifecyle' element={<MoodleLifeCycle/>}/>
-                 <Route path='/integral-process' element={<IntegralProcess/>}/>
-             </Routes>
-         </BrowserRouter>
-     </>
+            </header>
+            <BrowserRouter>
+                <Navbar/>
+                <Routes>
+                    <Route path='/' element={<Home/>}/>
+                    <Route path='/home' element={<Home/>}/>
+                    <Route path='/infrastructure' element={<Infrastructure/>} smooth/>
+                    <Route path='/satelite-plugins' element={<SatelitePlugins/>}/>
+                    <Route path='/team-moodle' element={<TeamMoodle/>}/>
+                    <Route path='/users-service' element={<UsersService/>}/>
+                    <Route path='/plugin-lifecyle' element={<PluginLifecycle/>}/>
+                    <Route path='/moodle-lifecyle' element={<MoodleLifeCycle/>}/>
+                    <Route path='/integral-process' element={<IntegralProcess/>}/>
+                </Routes>
+                <Infrastructure/>
+                <SatelitePlugins/>
+                <TeamMoodle/>
+                <UsersService/>
+                <PluginLifecycle/>
+                <MoodleLifeCycle/>
+                <IntegralProcess/>
+            </BrowserRouter>
+        </>
     );
 }
+
 export default App;
