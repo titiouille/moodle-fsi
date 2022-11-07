@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/moodle-fsi/static/css/main.c07783e7.css",
-    "main.js": "/moodle-fsi/static/js/main.cd9f70be.js",
+    "main.css": "/moodle-fsi/static/css/main.ba3e8d96.css",
+    "main.js": "/moodle-fsi/static/js/main.3ea51d6a.js",
     "static/js/787.b56ae280.chunk.js": "/moodle-fsi/static/js/787.b56ae280.chunk.js",
     "static/media/logo.svg": "/moodle-fsi/static/media/logo.e058fe67c44b630bed322fb9971a45a9.svg",
     "index.html": "/moodle-fsi/index.html",
-    "main.c07783e7.css.map": "/moodle-fsi/static/css/main.c07783e7.css.map",
-    "main.cd9f70be.js.map": "/moodle-fsi/static/js/main.cd9f70be.js.map",
+    "main.ba3e8d96.css.map": "/moodle-fsi/static/css/main.ba3e8d96.css.map",
+    "main.3ea51d6a.js.map": "/moodle-fsi/static/js/main.3ea51d6a.js.map",
     "787.b56ae280.chunk.js.map": "/moodle-fsi/static/js/787.b56ae280.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07783e7.css",
-    "static/js/main.cd9f70be.js"
+    "static/css/main.ba3e8d96.css",
+    "static/js/main.3ea51d6a.js"
   ]
 }
