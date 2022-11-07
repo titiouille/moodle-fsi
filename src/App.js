@@ -10,12 +10,12 @@ import PluginLifecycle from "./pages/PluginLifecycle";
 import Home from "./pages/Home";
 import MoodleLifeCycle from "./pages/MoodleLifeCycle";
 import IntegralProcess from "./pages/IntegralProcess";
+import ScrollArrow from "./components/ScrollArrow";
 
 function App() {
     return (
         <>
             <header className="App-header">
-
             </header>
             <BrowserRouter>
                 <Navbar/>
@@ -31,6 +31,7 @@ function App() {
                     <Route path='/integral-process' element={<IntegralProcess/>}/>
                 </Routes>
                 <Infrastructure/>
+                <ScrollArrow />
                 <SatelitePlugins/>
                 <TeamMoodle/>
                 <UsersService/>
@@ -38,6 +39,10 @@ function App() {
                 <MoodleLifeCycle/>
                 <IntegralProcess/>
             </BrowserRouter>
+
+            <footer>
+                Je suis le footer
+            </footer>
         </>
     );
 }

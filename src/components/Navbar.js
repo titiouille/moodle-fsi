@@ -3,7 +3,7 @@ import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import {useState} from "react";
 import {SidebarData} from "./SidebarData";
-import './Navbar.css';
+import './css/Navbar.css';
 import {IconContext} from "react-icons";
 import logo from "../logo.svg";
 

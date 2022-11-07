@@ -1,3 +1,4 @@
+import ScrollArrow from "../components/ScrollArrow";
 const Infrastructure = () => {
     return (
         <div className="container">
@@ -5,6 +6,7 @@ const Infrastructure = () => {
             Je suis la page infrastructure
             </main>
         </div>
+
     )
 }
 export default Infrastructure;
