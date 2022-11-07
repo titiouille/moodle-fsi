@@ -14,16 +14,6 @@
     justify-content: center;
     font-size: 3rem;
 }
-
-.App-logo{
-    display: block;
-    /*position: absolute;*/
-    top: 0;
-    left: 0;
-    max-width: 250px;
-    margin-left: 8%;
-
-}
 .container{
     display: flex;
     height: 90vh;

@@ -72,3 +72,13 @@
 span {
     margin-left: 16px;
 }
+
+.App-logo{
+    display: block;
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    max-width: 250px;
+    margin-left: 8%;
+
+}

@@ -16,11 +16,12 @@ const Navbar = () => {
         <>
             <IconContext.Provider value={{color: '#fff'}}>
                 <div className="navbar">
-
                     <Link to="#" className='menu-bars'>
                         <FaIcons.FaBars onClick={showSidebar} />
                     </Link>
-                    <a href="https://capsule.sorbonne-universite.fr/"><img src={logo} className="App-logo" alt="logo" /></a>
+                    {/*<a href='https://capsule.sorbonne-universite.fr/' target='_blank' rel="noreferrer">*/}
+                        <img src={logo} className="App-logo" alt="logo" />
+                    {/*</a>*/}
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                     <ul className='nav-menu-items' onClick={showSidebar}>
@@ -29,7 +30,6 @@ const Navbar = () => {
                                 <AiIcons.AiOutlineClose />
                             </Link>
                         </li>
-
                         {SidebarData.map((item, index) => {
                             return (
                                 <li key={index} className={item.cName}>
